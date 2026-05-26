@@ -13,6 +13,7 @@ import os
 import pandas as pd
 
 
+# token = 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
 
 def disimilitud(n, m=None, inyectividad=False):
     """
@@ -268,7 +269,14 @@ def contar_hojas(arbol):
 
 #################################################################################################
 
-
+def es_camino_robinson(camino, D):
+    '''
+    Dado un espacio de disimilitud (X,D), y un camino x1x2...x(n-1)xn dentro de un árbol tal que todos sus subcaminos son Robinson. Esta función retorna 'True' si el camino dado es Robinson bajo D. 'False' en otro caso.
+    '''
+    x1, x2, x3, x4 = camino[0], camino[1], camino[-2], camino[-1]
+    if D[x1,x4] < max(D[x1,x3],D[x2,x4]):
+        return False
+    return True
 
 #################################################################################################
 
