@@ -1,17 +1,19 @@
 # MultiStart_c1.py
-from LectorCarpetas import procesar_data_test_exp_meta # (Usa el nombre de tu archivo lector)
 from MultiStart import pipeline_maestro_final
+from QuasiRobinson import procesar_benchmark_a_df
 
 print("=== LANZANDO LOTE 1 (Carpeta c1) ===")
 
 # 1. Leer carpeta 1
-matrices_c1, ids_c1 = procesar_data_test_exp_meta(n_carpeta=1)
+carpeta = 'c1'
+
+matrices, df = procesar_benchmark_a_df(carpeta, t=0.0001) 
 
 # 2. Ejecutar experimento
 # Ajusta tus parámetros t_max, t_mst, etc., según tu diseño
 resumen, prep, crudo_fi, crudo_bi = pipeline_maestro_final(
-    matrices=matrices_c1, 
-    lista_ids=ids_c1, 
+    matrices=matrices, 
+    lista_ids=range(len(matrices)), 
     t_max=600,      
     t_mst=10,         
     n_pert=200,       
