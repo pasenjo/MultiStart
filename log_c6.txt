@@ -1,1 +1,94 @@
 nohup: ignoring input
+=== LANZANDO LOTE 6 (Carpeta c6) ===
+Procesando 20 archivos en la carpeta 'c6'...
+=== INICIANDO PIPELINE MAESTRO MULTISTART ===
+Límite global (t_max): 600s | t_mst: 10s | n_pert: 200 | eps: 0.25
+
+[101] Iniciando procesamiento (n=30)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[102] Iniciando procesamiento (n=30)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[103] Iniciando procesamiento (n=30)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[104] Iniciando procesamiento (n=30)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[105] Iniciando procesamiento (n=30)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[106] Iniciando procesamiento (n=30)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[107] Iniciando procesamiento (n=30)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[108] Iniciando procesamiento (n=30)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[109] Iniciando procesamiento (n=30)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[110] Iniciando procesamiento (n=30)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[111] Iniciando procesamiento (n=30)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[112] Iniciando procesamiento (n=30)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[113] Iniciando procesamiento (n=30)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[114] Iniciando procesamiento (n=30)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[115] Iniciando procesamiento (n=30)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[116] Iniciando procesamiento (n=30)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[117] Iniciando procesamiento (n=30)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[118] Iniciando procesamiento (n=30)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[119] Iniciando procesamiento (n=30)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[120] Iniciando procesamiento (n=30)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+
+✅ Resumen Ejecutivo generado en: resultados meta NEW/Resumen_Ejecutivo_260526_1613.xlsx
+✅ Resumen MST+Ruido generado en: resultados meta NEW/Resumen_Fase1_y_Ruido_260526_1613.xlsx
+✅ Datos Crudos FI generados en: resultados meta NEW/Crudo_FI_260526_1613.xlsx
+✅ Datos Crudos BI generados en: resultados meta NEW/Crudo_BI_260526_1613.xlsx
+
+=== PIPELINE MAESTRO COMPLETADO CON ÉXITO ===
+=== LOTE 6 COMPLETADO ===
