@@ -85,8 +85,8 @@ Límite global (t_max): 600s | t_mst: 10s | n_pert: 200 | eps: 0.25
   -> Ejecutando estrategia: First_Improvement
   -> Ejecutando estrategia: Best_Improvement
 
-✅ Resumen Ejecutivo generado en: resultados meta NEW/Resumen_Ejecutivo_260526_1613.xlsx
-✅ Resumen MST+Ruido generado en: resultados meta NEW/Resumen_Fase1_y_Ruido_260526_1613.xlsx
+✅ Resumen Ejecutivo generado en: resultados meta NEW/Resumen_Ejecutivo_270526_0008.xlsx
+✅ Resumen MST+Ruido generado en: resultados meta NEW/Resumen_Fase1_y_Ruido_270526_0008.xlsx
 Traceback (most recent call last):
   File "/export/home/tesistas/pasenjo/thesis/MultiStart/MultiStart_c2.py", line 12, in <module>
     resumen, prep, crudo_fi, crudo_bi = pipeline_maestro_final(
@@ -100,4 +100,4 @@ Traceback (most recent call last):
     formatter.write(
   File "/export/home/tesistas/pasenjo/.env/lib/python3.11/site-packages/pandas/io/formats/excel.py", line 931, in write
     raise ValueError(
-ValueError: This sheet is too large! Your sheet size is: 1165871, 9 Max sheet size is: 1048576, 16384
+ValueError: This sheet is too large! Your sheet size is: 1221600, 9 Max sheet size is: 1048576, 16384

@@ -85,10 +85,10 @@ Límite global (t_max): 600s | t_mst: 10s | n_pert: 200 | eps: 0.25
   -> Ejecutando estrategia: First_Improvement
   -> Ejecutando estrategia: Best_Improvement
 
-✅ Resumen Ejecutivo generado en: resultados meta NEW/Resumen_Ejecutivo_260526_1613.xlsx
-✅ Resumen MST+Ruido generado en: resultados meta NEW/Resumen_Fase1_y_Ruido_260526_1613.xlsx
-✅ Datos Crudos FI generados en: resultados meta NEW/Crudo_FI_260526_1613.xlsx
-✅ Datos Crudos BI generados en: resultados meta NEW/Crudo_BI_260526_1613.xlsx
+✅ Resumen Ejecutivo generado en: resultados meta NEW/Resumen_Ejecutivo_270526_0005.xlsx
+✅ Resumen MST+Ruido generado en: resultados meta NEW/Resumen_Fase1_y_Ruido_270526_0005.xlsx
+✅ Datos Crudos FI generados en: resultados meta NEW/Crudo_FI_270526_0005.xlsx
+✅ Datos Crudos BI generados en: resultados meta NEW/Crudo_BI_270526_0005.xlsx
 
 === PIPELINE MAESTRO COMPLETADO CON ÉXITO ===
 === LOTE 6 COMPLETADO ===
