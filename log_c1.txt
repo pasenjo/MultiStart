@@ -1,1 +1,103 @@
 nohup: ignoring input
+=== LANZANDO LOTE 1 (Carpeta c1) ===
+Procesando 20 archivos en 'c1'...
+=== INICIANDO PIPELINE MAESTRO MULTISTART ===
+Límite global (t_max): 600s | t_mst: 10s | n_pert: 200 | eps: 0.25
+
+[0] Iniciando procesamiento (n=7)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[1] Iniciando procesamiento (n=7)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[2] Iniciando procesamiento (n=7)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[3] Iniciando procesamiento (n=7)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[4] Iniciando procesamiento (n=7)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[5] Iniciando procesamiento (n=7)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[6] Iniciando procesamiento (n=7)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[7] Iniciando procesamiento (n=7)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[8] Iniciando procesamiento (n=7)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[9] Iniciando procesamiento (n=7)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[10] Iniciando procesamiento (n=7)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[11] Iniciando procesamiento (n=7)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[12] Iniciando procesamiento (n=7)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[13] Iniciando procesamiento (n=7)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[14] Iniciando procesamiento (n=7)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[15] Iniciando procesamiento (n=7)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[16] Iniciando procesamiento (n=7)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[17] Iniciando procesamiento (n=7)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[18] Iniciando procesamiento (n=7)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+[19] Iniciando procesamiento (n=7)
+  -> Construyendo pool inicial (se compartirá entre estrategias)...
+  -> Ejecutando estrategia: First_Improvement
+  -> Ejecutando estrategia: Best_Improvement
+
+✅ Resumen Ejecutivo generado en: resultados meta NEW/Resumen_Ejecutivo_270526_1909.xlsx
+✅ Resumen MST+Ruido generado en: resultados meta NEW/Resumen_Fase1_y_Ruido_270526_1909.xlsx
+Traceback (most recent call last):
+  File "/export/home/tesistas/pasenjo/thesis/MultiStart/MultiStart_c1.py", line 14, in <module>
+    resumen, prep, crudo_fi, crudo_bi = pipeline_maestro_final(
+                                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/export/home/tesistas/pasenjo/thesis/MultiStart/MultiStart.py", line 172, in pipeline_maestro_final
+    df_FI.to_excel(nombre_fi, index=False)
+  File "/export/home/tesistas/pasenjo/.env/lib/python3.11/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/export/home/tesistas/pasenjo/.env/lib/python3.11/site-packages/pandas/core/generic.py", line 2436, in to_excel
+    formatter.write(
+  File "/export/home/tesistas/pasenjo/.env/lib/python3.11/site-packages/pandas/io/formats/excel.py", line 931, in write
+    raise ValueError(
+ValueError: This sheet is too large! Your sheet size is: 4768449, 9 Max sheet size is: 1048576, 16384
